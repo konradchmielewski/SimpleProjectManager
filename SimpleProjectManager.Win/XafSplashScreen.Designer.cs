@@ -104,7 +104,7 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(114)))), ((int)(((byte)(0)))));
+            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.panelControl1.Appearance.Options.UseBackColor = true;
             this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl1.Controls.Add(this.subtitleLabel);
@@ -118,14 +118,14 @@
             // subtitleLabel
             // 
             this.subtitleLabel.Appearance.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subtitleLabel.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(188)))));
+            this.subtitleLabel.Appearance.ForeColor = System.Drawing.Color.White;
             this.subtitleLabel.Appearance.Options.UseFont = true;
             this.subtitleLabel.Appearance.Options.UseForeColor = true;
-            this.subtitleLabel.Location = new System.Drawing.Point(222, 123);
+            this.subtitleLabel.Location = new System.Drawing.Point(220, 166);
             this.subtitleLabel.Name = "subtitleLabel";
-            this.subtitleLabel.Size = new System.Drawing.Size(64, 25);
+            this.subtitleLabel.Size = new System.Drawing.Size(249, 25);
             this.subtitleLabel.TabIndex = 1;
-            this.subtitleLabel.Text = "Subtitle";
+            this.subtitleLabel.Text = "Made by Konrad Chmielewski";
             // 
             // applicationNameLabel
             // 
@@ -133,11 +133,11 @@
             this.applicationNameLabel.Appearance.ForeColor = System.Drawing.SystemColors.Window;
             this.applicationNameLabel.Appearance.Options.UseFont = true;
             this.applicationNameLabel.Appearance.Options.UseForeColor = true;
-            this.applicationNameLabel.Location = new System.Drawing.Point(123, 84);
+            this.applicationNameLabel.Location = new System.Drawing.Point(73, 70);
             this.applicationNameLabel.Name = "applicationNameLabel";
-            this.applicationNameLabel.Size = new System.Drawing.Size(278, 47);
+            this.applicationNameLabel.Size = new System.Drawing.Size(369, 47);
             this.applicationNameLabel.TabIndex = 0;
-            this.applicationNameLabel.Text = "Application Name";
+            this.applicationNameLabel.Text = "Simple Project Manager";
             // 
             // XafSplashScreen
             // 
